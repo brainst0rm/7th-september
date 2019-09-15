@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: grafana-deployment
 spec:
-  replicas: 5
+  replicas: 10
   template:
     metadata:
       labels:
